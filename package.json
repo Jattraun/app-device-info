@@ -1,0 +1,16 @@
+{
+  "name": "app-device-info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --watch --env-file=.env server.js"
+  },
+  "keywords": [],
+  "author": "Henry Amponsah",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
