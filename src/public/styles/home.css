@@ -81,3 +81,43 @@ a {
   line-height: 1.5;
   margin-top: 15px;
 }
+
+.btn {
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: #111;
+  color: #fff;
+  width: 105px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #303030;
+}
+
+.rule {
+  width: 80%;
+  height: 1px;
+  border: none;
+
+  background-color: #cccccc;
+  margin-top: 550px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer p {
+  font-size: 14px;
+  color: gray;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
