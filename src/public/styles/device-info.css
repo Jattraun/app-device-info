@@ -17,18 +17,6 @@ a {
   text-decoration: none;
 }
 
-.status {
-  width: 100%;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  background-color: #6e3ecf;
-  text-decoration: underline;
-  font-size: 14.5px;
-}
-
 .header {
   background-color: #111;
   width: 100%;
@@ -71,46 +59,66 @@ a {
   margin-left: 15px;
 }
 
-.hero {
+main .container {
   width: 80%;
-  height: 120px;
-  padding: 20px 85px;
-  margin-top: 50px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  display: block;
+  padding-bottom: 10px;
 }
 
-.hero h1 {
-  font-size: 37px;
-  font-weight: 600;
-  line-height: 1.3;
-}
-
-.hero p {
-  font-size: 18px;
-  line-height: 1.5;
-  margin-top: 15px;
-}
-
-.btn {
-  font-size: 18px;
+.device-info {
   margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  background-color: #111;
-  color: #fff;
-  width: 105px;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
+  line-height: 1.5;
+  font-size: 17px;
+  padding-left: 5px;
 }
 
-.btn:hover {
-  background-color: #303030;
+.device-info .title {
+  font-weight: 600;
+}
+
+.other-info {
+  margin-top: 70px;
+}
+
+.other-info .category-title {
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 7px;
+  margin-left: 5px;
+}
+
+.other-info hr {
+  border: none;
+  height: 0.8px;
+  width: 100%;
+  background-color: #a5a5a5;
+}
+
+.category-info {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.category-info .category-item {
+  height: 250px;
+  line-height: 1.5;
+  padding: 5px;
+  padding-top: 0;
+}
+
+.category-info .category-item .item-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.category-item .item-content span {
+  font-weight: 500;
 }
 
 .rule {
@@ -119,7 +127,7 @@ a {
   border: none;
 
   background-color: #cccccc;
-  margin-top: 550px;
+  margin-top: 10px;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
